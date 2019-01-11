@@ -1,0 +1,137 @@
+body {
+    background:url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.headerImage {
+    padding-bottom: 100px;
+}
+
+.marioFont {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    height: 220px;
+    width: 50%;
+}
+
+.gameSpace {
+    background: rgba(255, 255, 255, 0.7);
+    border: 5px solid #d64932;
+    margin-bottom: 150px;
+}
+
+.gameSpaceRow {
+
+}
+
+.chColumn {
+    border-right: 5px solid #d64932;
+}
+
+.chSpace {
+    padding-left: 110px;
+}
+
+.chSize {
+    height: 150px;
+    width: 75px;
+}
+
+.pwrUpMario {
+    
+}
+
+.star {
+
+}
+
+.lrgMario {
+
+}
+
+.coin {
+
+}
+
+.smlMario {
+
+}
+
+.peach {
+
+}
+
+.test1 {
+    text-align: center;
+}
+
+.headerTwo {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wlContainer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #62b158;
+    border-bottom: 5px solid #d64932;
+    border-top: 5px solid #d64932;
+}
+
+.wins {
+    color: #f9d44a;
+}
+
+.losses {
+    color: #f9d44a;
+}
+
+.currentWord {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: #306b8b;
+
+}
+
+.remainLives {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.lettersGuessed {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.playButton {
+    background-color: #4aabe0;
+    border: 3px solid #d64932;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
