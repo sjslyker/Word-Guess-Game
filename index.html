@@ -14,7 +14,9 @@
                 <div class="headerImage">
                     <img src="./assets/images/supermario.png" alt="" class="marioFont">
                 </div>             
-            </header>    
+            </header>   
+            <br>
+            <hr class="winText" id="winText"></hr>
     </div>
 
         <div class="container gameSpace">
@@ -23,26 +25,26 @@
                     <h2 class="test1">Allies Remaining</h2>
                     <div class="row chSpace">
                         <div class="col-lg-6">
-                            <img src="./assets/images/PwrUpMario.png" alt="" class="pwrUpMario chSize">
+                            <img src="./assets/images/PwrUpMario.png" alt="" id="mPuMario" class="pwrUpMario chSize">
                         </div>
                         <div class="col-lg-6">
-                            <img src="./assets/images/star.png" alt="" class="star chSize">
-                        </div>
-                    </div>
-                    <div class="row chSpace">
-                        <div class="col-lg-6">
-                            <img src="./assets/images/mario.png" alt="" class="lrgMario chSize">
-                        </div>
-                        <div class="col-lg-6">
-                            <img src="./assets/images/Coin.png" alt="" class="coin chSize">
+                            <img src="./assets/images/star.png" alt="" id="mStar" class="star chSize">
                         </div>
                     </div>
                     <div class="row chSpace">
                         <div class="col-lg-6">
-                            <img src="./assets/images/smlMario.png" alt="" class="smlMario chSize">
+                            <img src="./assets/images/mario.png" alt="" id="mRgMario" class="lrgMario chSize">
                         </div>
                         <div class="col-lg-6">
-                            <img src="./assets/images/peach.png" alt="" class="peach chSize">
+                            <img src="./assets/images/Coin.png" alt="" id="mCoin" class="coin chSize">
+                        </div>
+                    </div>
+                    <div class="row chSpace">
+                        <div class="col-lg-6">
+                            <img src="./assets/images/smlMario.png" alt="" id="mSmMario" class="smlMario chSize">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./assets/images/peach.png" alt="" id="mPeach" class="peach chSize">
                         </div>
                     </div>
                 </div>    
@@ -57,37 +59,46 @@
                     <div class="row wlContainer">
                         <div class="col-md-6 winContainer">
                                 <h3 class="wins">Wins:  </h3>
+                                <div class="results" id="wins"></div>
                         </div> 
 
                         <div class="col-md-6 lossContainer"> 
                                 <h3 class="losses">Losses:  </h3>
+                                <div class="results" id="losses"></div>
                         </div>    
                     </div>      
                     <div class="row">
                         <div class="col-lg-12">
                             <p class="currentWord">Current word</p>
+                            <div class="result" id="theWord"></div>
                         </div>
                     </div> 
                     <div class="row">
                         <div class="col-lg-12">
                             <p class="remainLives">Number of lives remaining</p>
+                            <div class="result" id="remLives"></div>
                         </div>
                     </div> 
                     <div class="row">
                         <div class="col-lg-12">
                             <p class="lettersGuessed">Letters guessed</p>
-                        </div>
-                    </div> 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p class="playButton">Play again</p>
+                            <div class="result" id="lettersGuessed"></div>
                         </div>
                     </div> 
                 </div>
             </div>
         </div>   
 
-        <script type=“text/javascript” src="Javascript/game.js"></script>
+        <div class="text-center">
+            <audio controls autoplay id="song">
+                 <source src="assets/song/Super Mario Bros. medley.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+
+        <script type="text/javascript" src="./Javascript/game.js"></script>
+
+        
+        
 
 </body>
 </html>
